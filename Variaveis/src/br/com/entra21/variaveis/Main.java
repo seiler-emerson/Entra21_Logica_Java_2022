@@ -56,19 +56,16 @@ public class Main {
 		entrada = new Scanner(System.in);
 
 		/*
-		 * System.out.println("Por favor qual é o seu nome?"); nome =
-		 * entrada.nextLine();
-		 * 
-		 * System.out.println("Informe sua idade:"); minhaIdade = entrada.nextByte();
-		 * 
-		 * System.out.println("Informe sua altura:"); minhaAltura = entrada.nextFloat();
-		 * 
-		 * System.out.println("Informe seu salario:"); salario = entrada.nextFloat();
-		 * 
-		 * System.out.println("Bem vindo " + nome +
-		 * " agora consigo interagir com humanos, já sei que vc tem " + minhaIdade +
-		 * " anos. Sua altura é " + minhaAltura + " e seu salario é R$" + salario);
-		 */
+		  System.out.println("Por favor qual é o seu nome?"); nome = entrada.nextLine();
+		  
+		  System.out.println("Informe sua idade:"); minhaIdade = entrada.nextByte();
+		  
+		  System.out.println("Informe sua altura:"); minhaAltura = entrada.nextFloat();
+		  
+		  System.out.println("Informe seu salario:"); salario = entrada.nextFloat();
+		  
+		  System.out.println("Bem vindo " + nome + " agora consigo interagir com humanos, já sei que vc tem " + minhaIdade + " anos. Sua altura é " + minhaAltura + " e seu salario é R$" + salario);
+		*/
 
 		nome = JOptionPane.showInputDialog("Informe seu nome completo: ");
 
