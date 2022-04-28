@@ -1,4 +1,4 @@
-# Aprendendo sobre vari�veis
+# Aprendendo sobre variaveis
 
 - Variáveis armazenam valores e permite alterações.
 - As variáveis guardam valores primitivos e referenciais.
