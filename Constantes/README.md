@@ -1,9 +1,7 @@
-# Aprendendo sobre vari�veis
+# Aprendendo sobre constantes
 
-- Variáveis armazenam valores e permite alterações.
-- As variáveis guardam valores primitivos e referenciais.
-- Os tipos primitivos são: Inteiro, decimal, literal, caractere e lógico.
-- O tipo referencial são os objetos de classe que serão detalhados em orientação a objetos.
+- Constantes armazenam valores e após sua inicialização, não permite mais alterações
+- Constantes guardam valores primitivos e referenciais.
 
 ## Tipos / Capacidades / Propriedades
 
