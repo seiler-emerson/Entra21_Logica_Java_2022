@@ -6,7 +6,7 @@
 ## Formas
 
 - Igual a (==)
-- Diferente de (!+)
+- Diferente de (!=)
 
 ## Exemplos
 
