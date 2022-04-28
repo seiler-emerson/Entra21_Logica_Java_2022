@@ -20,7 +20,6 @@ public class Main {
 		
 		System.out.println("Ao comparar a igualdade resultou em "+resultado);
 		
-	
 	}
 
 }
