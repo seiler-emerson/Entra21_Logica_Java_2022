@@ -1,4 +1,4 @@
-# Exercicio - Área e Perímetro
+# Exercicio - Calculo Média Aritmetica
 
 - Faça um programa que calcule a média aritmética de um aluno.
 - Capture o nome do aluno e valor de suas 3 notas para informar a média.

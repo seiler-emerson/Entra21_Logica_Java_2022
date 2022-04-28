@@ -1,4 +1,4 @@
-# Exercicio - Área e Perímetro
+# Exercicio - Calculadora 4 Operações
 
 - Faça um programa de calculadora.
 - Capture o nome do usuário e 2 valores numéricos.
