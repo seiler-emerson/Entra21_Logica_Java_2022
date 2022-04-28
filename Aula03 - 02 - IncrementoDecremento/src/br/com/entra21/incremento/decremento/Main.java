@@ -6,8 +6,8 @@ public class Main {
 		
 		int idade = 33;
 		
-		System.out.println("Minha idade com pos incremento "+(idade++));
-		System.out.println(idade);
+		//System.out.println("Minha idade com pos incremento "+(idade++));
+		//System.out.println(idade);
 		
 		System.out.println("Minha idade com pre incremento "+(++idade));
 		System.out.println(idade);
