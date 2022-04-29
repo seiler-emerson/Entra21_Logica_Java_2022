@@ -1,4 +1,4 @@
-# Aprendendo sobre condicional if
+# Aprendendo sobre condicional if e else
 
 - É uma forma de tomar decisões no código com base em condições.
 - Caso a primeira condição não seja satisfeita, no caso resulte em false, o código do else será executado.
