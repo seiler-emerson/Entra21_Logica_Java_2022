@@ -5,7 +5,7 @@
 
 ## Formas / Tabela Verdade
 
-- E / AND (&&)
+- E / AND ( && )
 
 | A | B | RESULTADO |
 |---|---|-----------|
@@ -14,7 +14,7 @@
 | F | T |     F     |
 | F | F |     F     |
 
-- OU / OR (||)
+- OU / OR ( || )
 
 
 | A | B | RESULTADO |
