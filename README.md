@@ -15,3 +15,4 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 04 - 02|[Operadores Relacionais](./Aula04%20-%2002%20-%20OperadoresRelacionais/)
 |Aula 04 - 03|[Operadores Lógicos](./Aula04%20-%2003%20-%20OperadoresLogicos/)
 |Aula 05 - 01|[Condicional IF](./Aula05%20-%2001%20-%20If/)
+|Aula 05 - 02|[Condicional IF/ELSE](./Aula05%20-%2002%20-%20ifElse/)
