@@ -14,6 +14,6 @@ nome = (true)?"Nome":"Sobrenome";
 System.out.println("Então você é "+(condicao?"de maior":"de menor"));
 ````
 
-## Exemplos If
+## Exemplos 
 
-![Exemplo](./img/exemploOperadorTernario.png)
+![Exemplo](./img/ExemploOperadorTernario.png)
