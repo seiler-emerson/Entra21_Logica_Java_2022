@@ -17,4 +17,4 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 05 - 01|[Condicional IF](./Aula05%20-%2001%20-%20If/)
 |Aula 05 - 02|[Condicional IF/ELSE](./Aula05%20-%2002%20-%20ifElse/)
 |Aula 05 - 03|[Condicional com Operador Ternario](./Aula05%20-%2003%20-%20operadorTernario/)
-|Aula 05 - 03|[Condicional ELSE IF](./Aula05%20-%2004%20-%20elseIf/)
+|Aula 05 - 04|[Condicional ELSE IF](./Aula05%20-%2004%20-%20elseIf/)
