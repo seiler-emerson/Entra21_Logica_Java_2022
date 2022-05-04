@@ -32,16 +32,16 @@ public class Main {
 		System.out.println("Digite a terceira nota: ");
 		nota3 = entrada.nextFloat();
 		
-		media = (nota1 + nota2 + nota3) /3;
+		media = (nota1 + nota2 + nota3) /quantidadeNotas;
 		
 		if(media<3) {
-			System.out.println("O aluno reprovou!");
+			System.out.println("O "+nomeAluno+" reprovou!");
 		} else if (media<7) {
-			System.out.println("O aluno está de recuperação!");			
+			System.out.println("O "+nomeAluno+" está de recuperação!");			
 		} else if (media<10) {
-			System.out.println("O aluno passou, mas poderia ser melhor!");			
+			System.out.println("O "+nomeAluno+" passou, mas poderia ser melhor!");			
 		} else if (media==10) {
-			System.out.println("O aluno passou, nota maxima!");			
+			System.out.println("O "+nomeAluno+" passou, nota maxima!");			
 		} else {
 			System.out.println("Há algo de errado com sua média!");		
 		}

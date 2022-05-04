@@ -12,14 +12,16 @@ public class Main {
 		Scanner entrada = new Scanner(System.in);
 		
 		
-		System.out.println("Qual é a sua cor favorita? ");
-		System.out.println("Digite o nome da cor escolhida: ");
-		System.out.println("verde");
-		System.out.println("azul");
-		System.out.println("amarelo");
-		System.out.println("vermelho");
 		
-		opcoes = entrada.nextLine();
+		System.out.println("Qual é a sua cor favorita? ");
+		System.out.println("Digite o nome da cor escolhida: \nVerde\nAzul\nAmarelo\nVermelho");
+//		System.out.println("verde");
+//		System.out.println("azul");
+//		System.out.println("amarelo");
+//		System.out.println("vermelho");
+		
+		opcoes = entrada.next();
+		opcoes = opcoes.toLowerCase();
 		
 		switch(opcoes) {
 		case "verde":
