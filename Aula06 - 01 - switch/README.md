@@ -1,23 +1,33 @@
 # Aprendendo sobre uso de Condicionais Switch
 
-- É uma forma de tomar decisões usando mais de uma condições.
+- É uma forma de tomar decisões usando mais de uma condição.
+- Usado para decisões diretas.
+- É uma forma de economizar recursos.
 
 ## Formas de uso
 
 ````
-double dinheiro=1000;
-	
-if(dinheiro<=1200) {
-    System.out.println("Salario minimo");
-} else if(dinheiro<=1800) {
-    System.out.println("ta ficando rico");
-} else if(dinheiro<=2000) {
-    System.out.println("me empresta :)");
-} else {
-    System.out.println("Me contrata vai.");
-}
+opcoes = entrada.nextLine();
+		
+		switch(opcoes) {
+		case "verde":
+			System.out.println("A cor da natureza!");
+			break;
+		case "azul":
+			System.out.println("A cor do céu!");
+			break;
+		case "amarelo":
+			System.out.println("Essa é pra animar!");
+			break;
+		case "vermelho":
+			System.out.println("A cor do sangue!");
+			break;
+		default:
+			System.out.println("Escolha uma opção valida.");
+			break;
+		}
 ````
 
 ## Exemplos 
 
-![Exemplo](./gif/ExemploElseIf.gif)
+![Exemplo](./img/exemplo.gif)
