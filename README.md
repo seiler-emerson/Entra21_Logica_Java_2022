@@ -20,3 +20,5 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 05 - 04|[Condicional ELSE IF](./Aula05%20-%2004%20-%20elseIf/)
 |Aula 06 - 01|[Condicional Switch](./Aula06%20-%2001%20-%20switch/)
 |Aula 07 - 01|[Funções](./Aula07%20-%2001%20-%20Funcoes/)
+|Aula 08 - 01|[Avaliação Calculadora](./Aula08%20-%20Avaliacao%20Calculadora/)
+|Aula 08 - 02|[Avaliação Signos](./Aula08%20-%20Avaliacao%20Signo/)
