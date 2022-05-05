@@ -19,3 +19,4 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 05 - 03|[Condicional com Operador Ternario](./Aula05%20-%2003%20-%20operadorTernario/)
 |Aula 05 - 04|[Condicional ELSE IF](./Aula05%20-%2004%20-%20elseIf/)
 |Aula 06 - 01|[Condicional Switch](./Aula06%20-%2001%20-%20switch/)
+|Aula 07 - 01|[Funções](./Aula07%20-%2001%20-%20Funcoes/)
