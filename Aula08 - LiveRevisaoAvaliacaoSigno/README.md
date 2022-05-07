@@ -14,7 +14,7 @@
         * Invalid month.
 ````
 ---
-- The software was developed as a refactoring of this proof. The code was developed in collaboration during a live review developed by the students.
+- The software was developed as a refactoring of this [proof](https://github.com/seiler-emerson/Entra21_Logica_Java_2022/tree/main/Aula08%20-%20AvaliacaoSigno). The code was developed in collaboration during a live review developed by the students.
 
 ![Imagem Live](./img/live.png)
 ---
