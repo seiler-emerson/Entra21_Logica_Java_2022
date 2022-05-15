@@ -1,10 +1,10 @@
-# Aprendendo sobre uso do For
+# Learning about using For
 
-- Ideal para repetições com base na quatidade.
-- Variável com ponto de ínicio.
-- Condição de permanencia.
-- Incremento ou decremento , pensando na condição de permanência.
+- Ideal for repeats based on quantity.
+- Variable with start point.
+- Condition of stay.
+- Increase or decrease, considering the permanence condition.
 
-## Exemplos 
+## Examples 
 
 ![Exemplo](./img/exemplo.png)

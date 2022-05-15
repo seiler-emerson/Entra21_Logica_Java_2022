@@ -14,7 +14,7 @@ public class Main {
 			System.out.println("01- Declarando Vetores");
 			System.out.println("02- Acessando Índices");
 			System.out.println("03- Atribuindo Valores e Índices");
-			System.out.println("04- Médias com Valores");
+			System.out.println("04- Médias com Valores\n");
 			option = inPut.nextByte();
 
 			switch (option) {
@@ -55,7 +55,7 @@ public class Main {
 
 		idades = new byte[15]; // Segundo, definir o tamanho
 
-		System.out.println("O tamanho é " + idades.length); // Depois, usar ou atualizar
+		System.out.println("O tamanho é " + idades.length+"\n"); // Depois, usar ou atualizar
 
 		// como acessar cada posição e ver oq tem nela
 		float notas[] = { 1, 3.5f, 8 }; // Criei a variável e 2 defini o tamanho e os valores
@@ -71,7 +71,7 @@ public class Main {
 
 		System.out.println("O tamanho é " + idades.length); // Depois, usar ou atualizar
 		System.out.println("O que tem no indice [1] " + idades[1]);
-		System.out.println("O que tem no ultimo indice " + idades[2]);
+		System.out.println("O que tem no ultimo indice " + idades[2]+"\n");
 
 	}
 
@@ -79,7 +79,7 @@ public class Main {
 		float notas[] = { 1, 3.5f, 8 }; // Criei a variável e 2 defini o tamanho e os valores
 		notas[0] = 33; // manda uma nota para o índice "0"
 		notas[2] = 12; // manda uma nota para o índice "2"
-
+		
 	}
 
 	public static void calcularMediaComVetores() {
@@ -99,6 +99,6 @@ public class Main {
 			soma = soma + notas[contador];
 		}
 		System.out.println("Soma = " + soma);
-		System.out.println("Média = " + soma / notas.length);
+		System.out.println("Média = " + soma / notas.length+"\n");
 	}
 }

@@ -16,10 +16,10 @@ public class Main {
 			System.out.println("3 - Entre 20 pessoas exibir a soma das idades");
 			System.out.println("4 - Quantas pessoas são maiores de idade?");
 			System.out.println("5 - Entre 10 pessoas, quem é o mais novo?");
-			System.out.println("6");
-			System.out.println("7");
-			System.out.println("8");
-			System.out.println("9 - solicite a quantidade de notas e calcule a média do aluno");
+			System.out.println("6 - Entre os numeros digitados quantos sao pares?");
+			System.out.println("7 - Entre os numeros digitados quantos estao no intervalo de 0 a 100?");
+			System.out.println("8 - Soma de numeros");
+			System.out.println("9 - Solicite a quantidade de notas e calcule a média do aluno");
 			option = input.nextByte();
 
 			switch (option) {
@@ -40,6 +40,11 @@ public class Main {
 				break;
 			case 5:
 				exibirMaisNovo();
+			case 6:
+				pairNumbers();
+				break;
+			case 7:
+				amongHundred();
 				break;
 			case 8:
 				exerciseOito();
@@ -47,16 +52,19 @@ public class Main {
 			case 9:
 				mediaAlunos();
 				break;
-				
+
 			default:
 				System.out.println("Por favor, escolha uma opção válida");
 				break;
 			}
+
 		} while (option != 0);
+
 		System.out.println("Obrigado por executar o programa Lista de Exercícios!");
+
 	}
 
-	public static void calculandoSoma() {
+	public static void calculandoSoma() { // EXERCICIO 01
 		System.out.println("CALCULANDO A SOMA");
 		byte soma = 0;
 		for (byte counter = 1; counter <= 15; counter++) {
@@ -67,7 +75,7 @@ public class Main {
 		}
 	}
 
-	public static void runRepeat20() {
+	public static void runRepeat20() { // EXERCICIO 02
 		for (byte counter = 1; counter <= 20; counter++) {
 			System.out.print("Eu gosto de estudar Algoritmos " + (counter % 5 == 0 ? "\n" : ""));
 			/*
@@ -76,7 +84,7 @@ public class Main {
 		}
 	}
 
-	public static void sumAge() {
+	public static void sumAge() { // EXERCICIO 03
 		int sumAge = 0;
 		byte age;
 		Scanner input = new Scanner(System.in);
@@ -90,7 +98,7 @@ public class Main {
 		System.out.println("A soma total das idades foi " + sumAge);
 	}
 
-	public static void maioresDeIdade() {
+	public static void maioresDeIdade() { // EXERCICIO 04
 		System.out.println("Exibir apenas os maiores de idade");
 		byte maiores = 0;
 		byte idade, count;
@@ -107,7 +115,7 @@ public class Main {
 		System.out.println("Entre " + (count - 1) + " pessoas, apenas " + maiores + " são maiores de idade.");
 	}
 
-	public static void exibirMaisNovo() {
+	public static void exibirMaisNovo() { // EXERCICIO 05
 		Scanner input = new Scanner(System.in);
 		String name, youngerName = "";
 		byte age, ageMinimal = 0;
@@ -136,7 +144,54 @@ public class Main {
 		System.out.println(youngerName + " tem " + ageMinimal + " e é o mais novo(a).");
 	}
 
-	public static void exerciseOito() {
+	public static void pairNumbers() { // EXERCICIO 06
+		// Escreva um algoritmo que leia 20 números do usuário e exiba quantos números
+		// são pares
+
+		Scanner input = new Scanner(System.in);
+		int number = 0;
+		byte isPair = 0;
+
+		for (byte count = 1; count <= 20; count++) {
+			System.out.println("Por favor, digite um numero:");
+			number = input.nextInt();
+			if (number % 2 == 0) {
+				System.out.println("O numero " + number + " digitado e par");
+				isPair += 1;
+			} else {
+				System.out.println("O numero " + number + " digitado nao e par");
+			}
+		}
+
+		System.out.println("Dos 20 numeros digitados, " + isPair + " sao pares.");
+
+	}
+
+	public static void amongHundred() {// EXERCICIO 07
+		// Faça um algoritmo que leia 20 números e, ao final, escreva quantos estão
+		// entre 0 e 100
+
+		Scanner input = new Scanner(System.in);
+
+		int number = 0;
+		byte among100 = 0;
+
+		for (byte count = 1; count <= 20; count++) {
+			System.out.println("Por favor, digite um numero:");
+			number = input.nextInt();
+			if (number > 0 && number <= 100) {
+				System.out.println("O numero "+number+" digitado esta entre 0 e 100.");
+				among100 += 1;
+			} else {
+				System.out.println("O numero digitado nao esta entre 0 e 100.");
+			}
+		}
+		
+		System.out.println("Dos 20 numeros digitados, " + among100 + " estao nos intervalo de 0 a 100.");
+
+	}
+
+	public static void exerciseOito() { // EXERCICIO 08
 
 		// Escreva um algoritmo que leia uma sequência de números do usuário e realize a
 		// soma desses números. Encerre a execução quando um número negativo for
@@ -159,7 +214,7 @@ public class Main {
 
 	}
 
-	public static void mediaAlunos() {
+	public static void mediaAlunos() { // EXERCICIO 09
 		Scanner input = new Scanner(System.in);
 		byte qtd, contador = 0;
 		float nota, soma = 0f;
