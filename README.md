@@ -7,6 +7,7 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 
 | AULA | ASSUNTO |
 |------|---------|
+|Aula 01 - 01|[Metodologias Ageis e Scrum](https://oliota.com/curso_detalhe/entra21-18-01-2022-metodologias-ageis/1649092581141)
 |Aula 02 - 01|[Variáveis](./Aula02%20-%2001%20-%20Variaveis/)
 |Aula 02 - 02|[Constantes](./Aula02%20-%2002%20-%20Constantes/)
 |Aula 03 - 01|[Operadores Aritméticos](./Aula03%20-%2001%20-%20OperadoresAritimeticos/)
