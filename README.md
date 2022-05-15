@@ -24,4 +24,6 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 08 - 02|[Avaliação Signo](./Aula08%20-%20AvaliacaoSigno/)
 |Aula 08 - 02|[Live - Refatorando Av. Signo](./Aula08%20-%20LiveRevisaoAvaliacaoSigno/)
 |Aula 09 - 01|[For](./Aula09%20-%2001%20-%20For/)
-|Aula 10 - 01|[While](./)
+|Aula 10 - 01|[While / Do-While](./Aula10%20-%2001%20-%20while/)
+|Aula 11 - 01|[Prática Laços de Repetição](./Aula11%20-%2001%20-%20PraticaEmSala/)
+|Aula 12 - 01|[Vetores](./Aula12%20-%2001%20-%20Vetores/)
