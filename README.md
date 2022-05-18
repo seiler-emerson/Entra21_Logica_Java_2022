@@ -28,3 +28,4 @@ Conteúdo prático realizado em sala durante o projeto Entra21.
 |Aula 10 - 01|[While / Do-While](./Aula10%20-%2001%20-%20while/)
 |Aula 11 - 01|[Prática Laços de Repetição](./Aula11%20-%2001%20-%20PraticaEmSala/)
 |Aula 12 - 01|[Vetores](./Aula12%20-%2001%20-%20Vetores/)
+|Aula 13 - 01|[Pratica com Vetores](./Aula13%20-%2001%20-%20LoopEmVetores/)
