@@ -29,3 +29,4 @@ Practical content carried out in the classroom during the Entra21 project.
 |Class 11 - 01|[Practice Loops of Repetitiono](./Aula11%20-%2001%20-%20PraticaEmSala/)
 |Class 12 - 01|[Vectors](./Aula12%20-%2001%20-%20Vetores/)
 |Class 13 - 01|[Practice with Vectors](./Aula13%20-%2001%20-%20LoopEmVetores/)
+|Class 14 - 01|[Matrices](./Aula14%20-%2001%20-%20Matrizes/)
