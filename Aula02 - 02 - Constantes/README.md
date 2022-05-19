@@ -1,22 +1,25 @@
-# Aprendendo sobre constantes
+# Learning about constants
 
-- Constantes armazenam valores e após sua inicialização, não permite mais alterações
-- Constantes guardam valores primitivos e referenciais.
+- Constants store values ​​and after their initialization, no more changes are allowed
+- Constants store primitive and referential values.
+- They must be defined with the final word and its name in capital letters.
 
-## Tipos / Capacidades / Propriedades
+## Types / Capabilities / Properties
 
-- byte (1 byte - 8 bits) / (-128-127) / Números inteiros
-- short (2 bytes - 16 bits) / (-32768 a +32767) / Números inteiros
-- int (4 bytes - 32 bits) / (-2147483648 a + 2147483647) / Números inteiros
-- long (8 bytes - 64 bits) / (-922337203685477808 a 922337203685477807) - Números inteiros
-- char (Caracteres Unicode 16 bits) / (0 a 65536) / Caracteres (Apenas um caractere nessas características)
-- float (4 bytes - 32 bits) / (aproximadamente 3.40282347E+38) / Ponto flutuante
-- double (8bytes - 64 bits) / (1.79769313486231570W+308) / Ponto Flutuante
-- boolean (True e false) / Booleano
+- byte (1 byte - 8 bits) / (-128-127) / Integers
+- short (2 bytes - 16 bits) / (-32768 to +32767) / Integers
+- int (4 bytes - 32 bits) / (-2147483648 to + 2147483647) / Integers
+- long (8 bytes - 64 bits) / (-922337203685477808 to 922337203685477807) - Integers
+- char (16-bit Unicode Characters) / (0 to 65536) / Characters (Only one character in these characteristics)
+- float (4 bytes - 32 bits) / (approximately 3.40282347E+38) / floating point
+- double (8bytes - 64 bits) / (1.79769313486231570W+308) / Floating Point
+- boolean (True and false) / Boolean
 
 ## Strings
 
-- String não é um tipo primitivo, mas é uma das classes mais utilizadas e aceita textos quando atribuído com "aspas".
+- String is not a primitive type, but it is one of the most used classes and accepts texts when assigned with "quotes".
 
-## Recursos
-- A preocupação com economia de recursos deve ser aplicada até na criação correta das variáveis.
+## Resources
+- The concern with saving resources must be applied even in the correct creation of the variables.
+
+### To access the PT-BR version of this guide, click [here](./README_PT-BR.md).

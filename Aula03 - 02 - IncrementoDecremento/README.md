@@ -1,19 +1,22 @@
-# Aprendendo sobre incremento e decremento
+# Learning about increment and decrement
 
-- É uma forma de tratar valores em variaveis de forma simplificada.
-## Formas
+- It is a way of treating values in variables in a simplified way.
 
-- pre incremento ou pre decremento
-- pos incremento ou pos decremento
-- compacta
-- didatica
+## Shapes
 
-## Exemplos de Uso
+- pre increment or pre decrement
+- post increment or post decrement
+- compact
+- didactic
 
-    idade++    //idade = idade + 1;
-	idade+=2;  //idade = idade +2
-	idade*=2;  // idade = idade * 2
-	idade/=2;  // idade = idade / 2
-	idade--;   //idade = idade - 1;
-	idade-=10; // idade = idade - 10;
+## Usage Examples
 
+    age++ //age = age + 1;
+	age+=2; // age = age +2
+	age*=2; // age = age * 2
+	age/=2; // age = age / 2
+	age--; //age = age - 1;
+	age-=10; // age = age - 10;
+
+
+### To access the PT-BR version of this guide, click [here](./README_PT-BR.md).
