@@ -25,6 +25,9 @@ public class Main {
 			case 3:
 				criarMatriz5Vetores3posicoes();
 				break;
+			case 4:
+				solicitarTamanhoMatrizParaPreencher();
+				break;
 			default:
 				System.out.println("Digite uma opcao valida!");
 				break;
@@ -41,6 +44,7 @@ public class Main {
 		menu+="\t1 - Criar matriz de 2 níveis\n";
 		menu+="\t2 - Criar matrizes de 2 níveis inicializados para cada tipo primitivo e exibir o tamanho deles no console\n";
 		menu+="\t3 - Criar 1 matriz de 5 posições com 3 itens de capacidade, para que o usuário alimente esses valores\n";
+		menu+="\t4 - Criar uma matriz com o tamanho  e capacidade informada pelo usuário e depois solicitar que o usuário informe os respectivos valores\n";
 		return menu;
 	}
 	
@@ -162,7 +166,33 @@ public class Main {
 			
 		}
 		
-		
 	}
 	
+	public static void solicitarTamanhoMatrizParaPreencher() {
+		byte tamanhoVetor,tamanhoDetalhe;
+		byte matrizBytes[][];
+		
+		System.out.println("Quantos vetores voce quer na sua matriz?");
+		tamanhoVetor = input.nextByte();
+		
+		System.out.println("Quantos itens voce quer em cada vetor?");
+		tamanhoDetalhe = input.nextByte();
+		
+		matrizBytes = new byte[tamanhoVetor][tamanhoDetalhe];
+		
+		for(byte vetor=0;vetor<matrizBytes.length;vetor++) {
+			for(byte detalhe=0;detalhe<matrizBytes[vetor].length;detalhe++) {
+				System.out.println("Para o indice ["+vetor+"] detalhe ["+detalhe+"] informe o valor:");
+				matrizBytes[vetor][detalhe] = input.nextByte();				
+			}
+			
+		}
+		
+		for(byte vetor=0;vetor<matrizBytes.length;vetor++) {
+			for(byte detalhe=0;detalhe<matrizBytes[vetor].length;detalhe++) {
+				System.out.println("Para o indice ["+vetor+"] detalhe ["+detalhe+"] ==> "+ matrizBytes[vetor][detalhe]);		
+			}
+			
+		}
+	}
 }
