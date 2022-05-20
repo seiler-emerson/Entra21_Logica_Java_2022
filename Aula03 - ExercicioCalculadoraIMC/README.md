@@ -1,9 +1,11 @@
-# Exercicio - Calculadora IMC
+# Exercise - BMI Calculator
 
-- Faça um programa que calcule o IMC.
-- O IMC é o Índice de Massa Corpórea e é calculado com a formula peso dividido pela altura ao quadrado.
-- IMC = PESO / (ALTURA^2)
+- Make a program that calculates BMI.
+- BMI is the Body Mass Index and is calculated with the formula weight divided by height squared.
+- BMI = WEIGHT / (HEIGHT^2)
 
-## Aplicação em uso.
+## Application in use.
 
 ![Gif Exercicio](./gif/gifExercicio.gif)
+
+### To access the PT-BR version of this guide, click [here](./README_PT-BR.md).

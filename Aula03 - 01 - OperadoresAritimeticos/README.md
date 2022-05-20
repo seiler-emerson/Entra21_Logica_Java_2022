@@ -1,21 +1,23 @@
-# Aprendendo sobre Operadores Aritméticos
+# Learning about Arithmetic Operators
 
-- Os operadores aritméticos realizam as operações fundamentais da matemática entre duas variáveis e retornam o resultado.
-- Caso seja necessário escrever operações maiores ou mais complexas, podemos combinar esses operadores e criar expressões, o que nos permite executar todo tipo de cálculo de forma programática.
+- Arithmetic operators perform fundamental math operations between two variables and return the result.
+- If it is necessary to write larger or more complex operations, we can combine these operators and create expressions, which allows us to perform all types of calculation programmatically.
 
-## Operadores
+## Operators
 
-- Soma (+)
-- Subtração (-)
-- Multiplicação (*)
-- Divisão (/)
-- Módulo/Resto (%)
+- Sum (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
+- Module/Remainder (%)
 
-## Exemplos de Uso
+## Usage Examples
 
-    resultado  = numero1 + numeroB
-	resultado  = numero1 - numeroB
-	resultado  = numero1 * numeroB
-	resultado  = numero1 / numeroB
-	resultado  = numero1 % numeroB
+    result = number1 + numberB
+	result = number1 - numberB
+	result = number1 * numberB
+	result = number1 / numberB
+	result = number1 % numberB
 
+
+### To access the PT-BR version of this guide, click [here](./README_PT-BR.md).

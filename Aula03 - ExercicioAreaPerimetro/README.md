@@ -1,9 +1,11 @@
-# Exercicio - Área e Perímetro
+# Exercise - Area and Perimeter
 
-- Faça um programa que solicite a base e altura de um retângulo e informe sua área e perimetro
-- Sabendo que a área é calculada com base no produto entre base e altura.
-- O perímetro é obtido ao somar todos os vertices do retângulo.
+- Write a program that requests the base and height of a rectangle and informs its area and perimeter
+- Knowing that the area is calculated based on the product of base and height.
+- The perimeter is obtained by adding all the vertices of the rectangle.
 
-## Aplicação em uso.
+## Application in use.
 
 ![Gif Exercicio](./gif/gifExercicio.gif)
+
+### To access the PT-BR version of this guide, click [here](./README_PT-BR.md).
