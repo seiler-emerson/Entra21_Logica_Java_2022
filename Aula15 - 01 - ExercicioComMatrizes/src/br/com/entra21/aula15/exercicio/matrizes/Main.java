@@ -45,6 +45,10 @@ public class Main {
 		menu+="\t2 - Criar matrizes de 2 níveis inicializados para cada tipo primitivo e exibir o tamanho deles no console\n";
 		menu+="\t3 - Criar 1 matriz de 5 posições com 3 itens de capacidade, para que o usuário alimente esses valores\n";
 		menu+="\t4 - Criar uma matriz com o tamanho  e capacidade informada pelo usuário e depois solicitar que o usuário informe os respectivos valores\n";
+		menu+="\t5 - Criar uma matriz de inteiros inicializado , para percorrer\n"
+				+ "\t\t5.1 - Do inicio ao fim\r\n"
+				+ "\t\t5.2 - Do fim ao inicio\r\n"
+				+ "\t\t5.3 - Para exibir os valores\n";
 		return menu;
 	}
 	
