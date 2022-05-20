@@ -28,6 +28,9 @@ public class Main {
 			case 4:
 				solicitarTamanhoMatrizParaPreencher();
 				break;
+			case 6:
+				atribuirAleatoriamenteValoresDetalheVetores();
+				break;
 			default:
 				System.out.println("Digite uma opcao valida!");
 				break;
@@ -49,6 +52,15 @@ public class Main {
 				+ "\t\t5.1 - Do inicio ao fim\r\n"
 				+ "\t\t5.2 - Do fim ao inicio\r\n"
 				+ "\t\t5.3 - Para exibir os valores\n";
+		menu+="\t6 - Criar uma matriz de inteiros não inicializado\r\n"
+				+ "\t\tRepita indefinidamente até que o usuário responda não para a pergunta\r\n"
+				+ "\t\t\tGostaria de inicializar o valor de uma das posições entre 1 e TAMANHO?\r\n"
+				+ "\t\tCaso responda sim\r\n"
+				+ "\t\t\tCapturar todos os valores para aquele índice\r\n"
+				+ "\t\t\t\tRepetir a captura até o fim da capacidade do índice\r\n"
+				+ "\t\tCaso responda não\r\n"
+				+ "\t\t\tSair da repetição de inicializações\r\n"
+				+ "\t\t\tExibir todos os valores da matriz";
 		return menu;
 	}
 	
@@ -198,5 +210,27 @@ public class Main {
 			}
 			
 		}
+	}
+	
+	public static void atribuirAleatoriamenteValoresDetalheVetores() {
+		byte matrizBytes[][] = new byte[30][10];
+		String resposta;
+		byte vetor=0,detalhe=0;
+		
+		do {
+			System.out.println("Para o vetor "+vetor+" e detalhe "+detalhe+" informe o valor:");
+			
+			matrizBytes[vetor][detalhe] = input.nextByte();
+			
+			System.out.println("Gostaria de inicializar outro valor?");
+			resposta = input.next();
+			if(resposta.equalsIgnoreCase("sim")) {
+				System.out.println("Qual vetor você quer acessar?");
+				vetor = input.nextByte();
+				System.out.println("Qual detalhe desse vetor voce quer atualizar o valor");
+				detalhe = input.nextByte();
+			}
+			
+		} while(resposta.equalsIgnoreCase("sim"));
 	}
 }
