@@ -28,6 +28,9 @@ public class Main {
 			case 4:
 				solicitarTamanhoMatrizParaPreencher();
 				break;
+			case 5:
+				percorrerMatriz();
+				break;
 			case 6:
 				atribuirAleatoriamenteValoresDetalheVetores();
 				break;
@@ -209,6 +212,36 @@ public class Main {
 				System.out.println("Para o indice ["+vetor+"] detalhe ["+detalhe+"] ==> "+ matrizBytes[vetor][detalhe]);		
 			}
 			
+		}
+	}
+	
+	public static void percorrerMatriz() {
+		// Criar uma matriz de inteiros inicializado , para percorrer
+		// Do inicio ao fim
+		// fim ao inicio
+		// Para exibir os valores
+		
+		byte matrizBytes[][]= {
+				{1,3,5,7,6},
+				{11,13,51,72,26},
+				{15,32,15,71,21},
+				{61,63,56,79,60},
+		};
+		
+		System.out.println("PERCORRER DO INICIO AO FIM");
+		// PERCORRER DO INICIO AO FIM
+		for(byte vetor=0;vetor<matrizBytes.length;vetor++) {
+			for(byte detalhe=0;detalhe<matrizBytes[vetor].length;detalhe++) {
+				System.out.println("Percorrendo vetor "+vetor+", index "+detalhe+" com valor armazenado "+matrizBytes[vetor][detalhe]);				
+			}
+		}
+		System.out.println("");
+		System.out.println("PERCORRER DO FIM AO INICIO");
+		// PERCORRER DO FIM AO INICIO
+		for(int vetorInvertido=matrizBytes.length-1;vetorInvertido>=0;vetorInvertido--) {
+			for(int detalheInvertido=matrizBytes[vetorInvertido].length-1;detalheInvertido>=0;detalheInvertido--) {
+				System.out.println("Percorrendo vetor "+vetorInvertido+", index "+detalheInvertido+" com valor armazenado "+matrizBytes[vetorInvertido][detalheInvertido]);				
+			}
 		}
 	}
 	
