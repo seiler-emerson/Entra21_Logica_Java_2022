@@ -7,7 +7,7 @@ Practical content carried out in the classroom during the Entra21 project.
 
 | CLASS | SUBJECT |
 |------|---------|
-|Class 01 - 01|[Agile and Scrum methodologies](https://oliota.com/curso_detalhe/entra21-18-01-2022-metodologias-ageis/1649092581141)
+|Class 01 - 01|[Introduction to Programming Logic](https://oliota.com/curso_detalhe/entra21-21-04-2022-logica-programacao/1649354372149)
 |Class 02 - 01|[Variables](./Aula02%20-%2001%20-%20Variaveis/)
 |Class 02 - 02|[Constants](./Aula02%20-%2002%20-%20Constantes/)
 |Class 03 - 01|[Arithmetic Operators](./Aula03%20-%2001%20-%20OperadoresAritimeticos/)
